@@ -1,0 +1,121 @@
+h2 {
+  text-align: center;
+  border: none;
+  padding: 20px;
+  margin-left: 100px;
+  width: 70%;
+  background-color: #75c4b0;
+  box-shadow: 0 0 0 3px #ddd;
+  animation: border-color 3s linear infinite;
+}
+
+@keyframes border-color {
+  from {
+    box-shadow: 0 0 0 3px #ddd;
+  }
+  to {
+    box-shadow: 0 0 0 20px #75c4b0;
+  }
+}
+
+
+
+
+
+
+body {
+  background-color: #f5f5f5;
+}
+
+.table {
+  width: 100%;
+}
+
+thead {
+  background-color: #f8d7da;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  font-weight: bold;
+  text-align: left;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.btn-primary {
+  background-color: #46b6a0;
+  border-color: #007bff;
+}
+
+.btn-danger {
+  background-color: #cc5f6a;
+  border-color: #dc3545;
+  margin-left: 20px;
+}
+
+.btn-success {
+  background-color: #cbce21;
+  border-color: #e0e00d;
+}
+
+.app-employee-form {
+  margin-top: 20px;
+}
+
+.btn-add-employee {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin-top: 80px;
+  background-color: #007bff;
+  border-color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-add-employee:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.btn-edit {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-delete {
+  background-color: #d5707a;
+  border-color: #e16e7aae;
+}
+
+.btn-details {
+  background-color: #56ad7b;
+  border-color: #6c757d;
+  margin-left: 30px;
+
+
+}
+
+.btn-edit,
+.btn-delete,
+.btn-details {
+  margin-right: 5px;
+}
+
+.btn-edit:hover,
+.btn-delete:hover,
+.btn-details:hover {
+  opacity: 0.8;
+}
